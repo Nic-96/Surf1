@@ -1,5 +1,16 @@
 .order-section {
     background: url(../img/Formimg.jpg) center top no-repeat;
-    background-size: 1100px 652px;
-    padding-top: 58px;
+    background-size: cover;
+    color: #fff;
+
+    .section__title {
+        color: inherit;
+    }
+}
+
+.order__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

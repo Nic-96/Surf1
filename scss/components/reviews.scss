@@ -1,3 +1,10 @@
+.reviews-section__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .reviews__display {
     background: #F8FAF9;
     padding: 42px 142px 42px 42px;
