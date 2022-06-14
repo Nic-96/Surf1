@@ -284,7 +284,7 @@ img {
   line-height: 1.2;
 }
 
-.benefits-section__container {
+.benefits__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -300,7 +300,7 @@ img {
           align-items: center;
 }
 
-.benefits {
+.benefits__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,7 +375,7 @@ img {
   line-height: 22px;
 }
 
-.reviews-section__container {
+.reviews__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -483,12 +483,12 @@ img {
      object-fit: cover;
 }
 
-.order-section {
+.order {
   background: url(../img/Formimg.jpg) center top no-repeat;
   background-size: cover;
   color: #fff;
 }
-.order-section .section__title {
+.order .section__title {
   color: inherit;
 }
 
