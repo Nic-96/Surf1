@@ -915,7 +915,7 @@ img {
 }
 
 .map__block {
-  background: url(../../img/map.png) center top no-repeat;
+  background: url(../img/map.png) center top no-repeat;
   background-size: cover;
   width: 100%;
   height: 100%;
