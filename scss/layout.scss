@@ -1,3 +1,15 @@
+html {
+    font-size: $baseFontSize;
+
+    @include tablets {
+        font-size: $baseFontSize - 1px;
+    }
+
+    @include phones {
+        font-size: $baseFontSize - 2px;
+    }
+}
+
 body,
 html {
     height: 100%;
@@ -5,7 +17,6 @@ html {
 
 body {
     font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
-    font-size: $baseFontSize;
     position: relative;
     margin: 0;
     line-height: 1.42;
@@ -15,7 +26,6 @@ body {
 .wrapper {
     position: relative;
     width: 100%;
-    min-width: $containerwidth + 20px;
     min-height: 100%;
     overflow: hidden;
 }
@@ -23,7 +33,8 @@ body {
 .container {
     margin: 0 auto;
     height: 100%;
-    width: $containerwidth;
+    max-width: $containerwidth;
+    width: 95%;
 }
 
 button {

@@ -1,8 +1,15 @@
 $containerwidth: 940px;
 $baseFontSize: 18px;
 
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
+
 //z-index
 $z-fixed-menu: 100;
+
+@import "media";
 
 //normilize
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
@@ -29,3 +36,7 @@ $z-fixed-menu: 100;
 @import "components/form";
 @import "components/radio";
 @import "components/fixed-menu";
+@import "components/hamburger";
+@import "components/map";
+@import "components/footer";
+@import "components/socials";

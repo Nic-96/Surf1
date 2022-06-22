@@ -4,11 +4,19 @@
 }
 
 .feature__icon {
-   width: 35px; 
-   margin-right: 14px;
+    display: flex;
+    width: rem(35px); 
+    margin-right: rem(14px);
+   
+}
+
+.feature__img {
+    width: rem(35px);
+    height: rem(35px); 
+    fill: white;
 }
 
 .feature__text {
-   font-size: 16px;
-    max-width: 85px;
+   font-size: rem(16px);
+    max-width: rem(85px);
 }
