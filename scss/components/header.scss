@@ -20,6 +20,7 @@
 .menu {
     margin: 0 30px;
     padding-top: 5px;
+    
     @include tablets {
         display: none;
     }
