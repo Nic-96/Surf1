@@ -2,6 +2,7 @@
     position: absolute;
     z-index: 5;
     top: 50%;
+    
 
     .arrow__icon {
         fill: none;
@@ -9,24 +10,22 @@
         stroke-width: 2;
         width: rem(13px);
         height: rem(27px);
+        
     }
 
     &--prev {
-        left: rem(-60px);
-
+        left: 0;
         @include tablets {
-            left: 0;
+            left: rem(100px);
         }
     }
 
     &--next {
-        right: rem(-60px);
-
+        right: 0;
         @include tablets {
-            right: 0;
+            right: rem(120px);
         }
     }
-    
     @include tablets {
         top: 30%;
     }

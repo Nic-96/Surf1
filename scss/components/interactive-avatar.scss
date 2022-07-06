@@ -6,7 +6,13 @@
     overflow: hidden;
     position: relative;
 
-    &--active {
+    &.active {
+        width: rem(80px);
+        height: rem(80px);
+        border-color: #FEDB3F;
+    }
+
+    &:hover {
         width: rem(80px);
         height: rem(80px);
         border-color: #FEDB3F;

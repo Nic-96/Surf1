@@ -66,6 +66,10 @@
     @include tablets {
         padding: rem(6px) rem(10px);
     }
+
+    &.input-error {
+        border-color: red;
+    }
 }
 
 
@@ -84,4 +88,6 @@
     justify-content: center;
     }
 }
+
+
 

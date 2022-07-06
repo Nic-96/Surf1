@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -265,44 +267,332 @@
                                     </div>
                                 </div>
                             </li>
+                            <li class="products__item product">
+                                <div class="product__container">
+                                    <div class="product__col product__col--left">
+                                        <img src="./img/prod2.png" alt="" class="product__img">
+                                    </div>
+                                    <div class="product__col product__col--right">
+                                        <a class="product__option">
+                                            <svg class="option__img">
+                                                <use xlink:href="./svg/sprite.svg#dropdown"></use>
+                                            </svg>
+                                            <div class="option__text">
+                                                Параметры
+                                            </div>
+                                            <div class="dropdown__menu">
+                                                <ul class="dropdown__list">
+                                                    <li class="dropdown__item">
+                                                        <svg class="dropdown__img">
+                                                            <use xlink:href="./svg/sprite.svg#dropdown1"></use>
+                                                        </svg>
+                                                        <div class="dropdown__elem">
+                                                            Длина доски
+                                                        </div>
+                                                        <div class="dropdown__elem-desc">
+                                                            от 1,5 м
+                                                        </div>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <svg class="dropdown__img">
+                                                            <use xlink:href="./svg/sprite.svg#dropdown2"></use>
+                                                        </svg>
+                                                        <div class="dropdown__elem">
+                                                            Ширина доски
+                                                        </div>
+                                                        <div class="dropdown__elem-desc">
+                                                            от 30 см
+                                                        </div>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <svg class="dropdown__img">
+                                                            <use xlink:href="./svg/sprite.svg#dropdown3"></use>
+                                                        </svg>
+                                                        <div class="dropdown__elem">
+                                                            Толщина
+                                                        </div>
+                                                        <div class="dropdown__elem-desc">
+                                                            8 см
+                                                        </div>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <svg class="dropdown__img">
+                                                            <use xlink:href="./svg/sprite.svg#dropdown4"></use>
+                                                        </svg>
+                                                        <div class="dropdown__elem">
+                                                            Срок службы
+                                                        </div>
+                                                        <div class="dropdown__elem-desc">
+                                                            5 лет
+                                                        </div>
+                                                    </li>
+                                                    <li class="dropdown__item">
+                                                        <svg class="dropdown__img">
+                                                            <use xlink:href="./svg/sprite.svg#dropdown5"></use>
+                                                        </svg>
+                                                        <div class="dropdown__elem">
+                                                            Вес
+                                                        </div>
+                                                        <div class="dropdown__elem-desc">
+                                                            7-8 кг
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                        <h2 class="product__title">Шортборд</h2>
+                                        <div class="product__content">
+                                            <div class="product__text">
+                                                <p>
+                                                    Самые быстрые доски для профессионалов. Размеры шортбордов позволяют быстро набирать скорость, делать различные трюки на волне, включая резкие повороты и развороты, флоатеры (проезды по самому гребню волны), различные прыжки с вращениями или без, а также катание 
+                                                    в трубах.
+                                                </p>
+                                            </div>
+                                            <div class="product__features">
+                                                <ul class="product__features-list">
+                                                    <li class="product__features-item">
+                                                        <p>Длина доски <br><b>от 1,5 метров</b></p>
+                                                    </li>
+                                                    <li class="product__features-item">
+                                                       <p>Ширина доски <br><b>от 30 сантиметров</b></p> 
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="product__order">
+                                                <div class="product__price">
+                                                    <p>12000 ₽</p>
+                                                </div>
+                                                <a href="" class="btn btn--theme--yellow">Заказать</a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
+                </div>
+            </section>
+            <section class="section team">
+                <div class="container team__container">
+                    <h2 class="section__title">команда</h2>
+                    <ul class="team__list team__list--desktop">
+                        <li class="team__item member">
+                            <div class="member__img-block">
+                                <img src="./img/Member1.png" alt="" class="member__img">
+                            </div>
+                            <button class="member__title" type="button">
+                                <h3 class ="member__title-content"> Борис Федорович </h3>
+                                <svg class="member__title-icon"> 
+                                    <use xlink:href="./svg/sprite.svg#teamdropdown"></use>
+                                </svg>
+                            </button>
+                            <div class="member__content">
+                                <div class="member__content-block">
+                                    <div class="member__profession">Главный технолог</div>
+                                    <p>Отвечает за материалы и разработку досок</p> 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item member">
+                            <div class="member__img-block">
+                                <img src="./img/Member2.png" alt="" class="member__img">
+                            </div>
+                            <button class="member__title" type="button">
+                                <h3 class ="member__title-content"> Ольга Невзорова </h3>
+                                <svg class="member__title-icon"> 
+                                    <use xlink:href="./svg/sprite.svg#teamdropdown"></use>
+                                </svg>
+                            </button>
+                            <div class="member__content">
+                                <div class="member__content-block">
+                                    <div class="member__profession">Дизайнер</div>
+                                    <p>Создает дизайн серфбордов</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item member">
+                            <div class="member__img-block">
+                                <img src="./img/Member3.png" alt="" class="member__img">
+                            </div>
+                            <button class="member__title" type="button">
+                                <h3 class ="member__title-content"> Ингвар Нильсон </h3>
+                                <svg class="member__title-icon"> 
+                                    <use xlink:href="./svg/sprite.svg#teamdropdown"></use>
+                                </svg>
+                            </button>
+                            <div class="member__content">
+                                <div class="member__content-block">
+                                    <div class="member__profession">Спортсмен</div>
+                                    <p>Участвует в разработке серфбордов</p> 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item member">
+                            <div class="member__img-block">
+                                <img src="./img/Member4.png" alt="" class="member__img">
+                            </div>
+                            <button class="member__title" type="button">
+                                <h3 class ="member__title-content"> Екатерина Иванова </h3>
+                                <svg class="member__title-icon"> 
+                                    <use xlink:href="./svg/sprite.svg#teamdropdown"></use>
+                                </svg>
+                            </button>
+                            <div class="member__content">
+                                <div class="member__content-block">
+                                    <div class="member__profession">Тестировщик</div>
+                                    <p>Отвечает за разработку новых продуктов</p> 
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="team__list team__list--mobile">
+                        <li class="team__item member">
+                            <button class="member__title" type="button">
+                                <h3 class ="member__title-content"> Борис Федорович </h3>
+                                <svg class="member__title-icon"> 
+                                    <use xlink:href="./svg/sprite.svg#teamdropdown"></use>
+                                </svg>
+                            </button>
+                            <div class="member__content">
+                                <div class="member__content-block">
+                                    <div class="member__img-block">
+                                        <img src="./img/Member1.png" alt="" class="member__img">
+                                    </div>
+                                    <div class="member__profession">Главный технолог</div>
+                                    <p>Отвечает за материалы и разработку досок</p> 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item member">
+                            <button class="member__title" type="button">
+                                <h3 class ="member__title-content"> Ольга Невзорова </h3>
+                                <svg class="member__title-icon"> 
+                                    <use xlink:href="./svg/sprite.svg#teamdropdown"></use>
+                                </svg>
+                            </button>
+                            <div class="member__content">
+                                <div class="member__content-block">
+                                    <div class="member__img-block">
+                                        <img src="./img/Member2.png" alt="" class="member__img">
+                                    </div>
+                                    <div class="member__profession">Дизайнер</div>
+                                    <p>Создает дизайн серфбордов</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item member">
+                            <button class="member__title" type="button">
+                                <h3 class ="member__title-content"> Ингвар Нильсон </h3>
+                                <svg class="member__title-icon"> 
+                                    <use xlink:href="./svg/sprite.svg#teamdropdown"></use>
+                                </svg>
+                            </button>
+                            <div class="member__content">
+                                <div class="member__content-block">
+                                    <div class="member__img-block">
+                                        <img src="./img/Member3.png" alt="" class="member__img">
+                                    </div>
+                                    <div class="member__profession">Спортсмен</div>
+                                    <p>Участвует в разработке серфбордов</p> 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="team__item member">
+                            <button class="member__title" type="button">
+                                <h3 class ="member__title-content"> Екатерина Иванова </h3>
+                                <svg class="member__title-icon"> 
+                                    <use xlink:href="./svg/sprite.svg#teamdropdown"></use>
+                                </svg>
+                            </button>
+                            <div class="member__content">
+                                <div class="member__content-block">
+                                    <div class="member__img-block">
+                                        <img src="./img/Member4.png" alt="" class="member__img">
+                                    </div>
+                                    <div class="member__profession">Тестировщик</div>
+                                    <p>Отвечает за разработку новых продуктов</p> 
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
             <section class="section reviews">
                 <div class="container reviews__container">
                     <h2 class="section__title">Отзывы</h2>
                     <div class="reviews__display">
-                        <div class="reviews__display-inner">
-                            <div class="reviews__avatar">
-                                <img src="./img/Review1.png" alt="" class="reviews__avatar-img">
-                            </div>
-                            <article class="reviews__content">
-                                <h3 class="reviews__title">Лучший дизайн</h3>
-                                <div class="reviews__text">
-                                    <p>
-                                        Я увидела доски на сайте и влюбилась в их дизайн. К летнему сезону я заказала себе доску в SurfBoard. Дизайнер команды - волшебница! Она учла все мои предпочтения и комментарии. В итоге получился прекрасный дизайн. А я катаюсь на доске, которая мне нравится)
-                                    </p>
+                        <ul class="reviews__list">
+                            <li class="reviews__item active" data-linked-with="one">
+                                <div class="reviews__display-inner">
+                                    <div class="reviews__avatar">
+                                        <img src="./img/Review1.png" alt="" class="reviews__avatar-img">
+                                    </div>
+                                    <article class="reviews__content">
+                                        <h3 class="reviews__title">Лучший дизайн</h3>
+                                        <div class="reviews__text">
+                                            <p>
+                                                Я увидела доски на сайте и влюбилась в их дизайн. К летнему сезону я заказала себе доску в SurfBoard. Дизайнер команды - волшебница! Она учла все мои предпочтения и комментарии. В итоге получился прекрасный дизайн. А я катаюсь на доске, которая мне нравится)
+                                            </p>
+                                        </div>
+                                        <div class="reviews__author">
+                                            Ольга Макарова
+                                        </div>
+                                    </article>
                                 </div>
-                                <div class="reviews__author">
-                                    Ольга Макарова
+                            </li>
+                            <li class="reviews__item" data-linked-with="two">
+                                <div class="reviews__display-inner">
+                                    <div class="reviews__avatar">
+                                        <img src="./img/Review2.png" alt="" class="reviews__avatar-img">
+                                    </div>
+                                    <article class="reviews__content">
+                                        <h3 class="reviews__title">Нереальная скорость</h3>
+                                        <div class="reviews__text">
+                                            <p>
+                                                Я занимаюсь профессиональным спортом. Доверил изготовление доски для соревнований ребятам из Surfboard и не пожалел: 1 место на соревнованиях. Нереальная скорость, устойчивая, удобная и легкая: всё что нужно для победы на соревнованиях!
+                                            </p>
+                                        </div>
+                                        <div class="reviews__author">
+                                            Марк Брюлов
+                                        </div>
+                                    </article>
                                 </div>
-                            </article>
-                        </div>
+                            </li>
+                            <li class="reviews__item" data-linked-with="three">
+                                <div class="reviews__display-inner">
+                                    <div class="reviews__avatar">
+                                        <img src="./img/Review3.png" alt="" class="reviews__avatar-img">
+                                    </div>
+                                    <article class="reviews__content">
+                                        <h3 class="reviews__title">Устойчивость и безопасность</h3>
+                                        <div class="reviews__text">
+                                            <p>
+                                                Я заказывал доски для своих детей. Мне было важно, чтобы они были устойчивые, так как безопасность детей на первом месте. Доски были изготовлены по индивидуальным замерам с учетом роста и веса каждого ребенка. Теперь дети катаются и им нравится!
+                                            </p>
+                                        </div>
+                                        <div class="reviews__author">
+                                            Василий Поперечный
+                                        </div>
+                                    </article>
+                                </div>
+                            </li>
+                        </ul>
+                        
                     </div>
                     <ul class="reviews__switcher">
-                        <li class="reviews__switcher-item interactive-avatar interactive-avatar--active">
-                            <a href="" class="interactive-avatar__link">
+                        <li class="reviews__switcher-item interactive-avatar active">
+                            <a href="#" class="interactive-avatar__link" data-open="one">
                                 <img src="./img/Review1.png" alt="" class="interactive-avatar__img">
                             </a>
                         </li>
-                        <li class="reviews__switcher-item interactive-avatar">
-                            <a href="" class="interactive-avatar__link">
+                        <li class="reviews__switcher-item interactive-avatar ">
+                            <a href="#" class="interactive-avatar__link" data-open="two">
                                 <img src="./img/Review2.png" alt="" class="interactive-avatar__img">
                             </a>
                         </li>
                         <li class="reviews__switcher-item interactive-avatar">
-                            <a href="" class="interactive-avatar__link">
+                            <a href="#" class="interactive-avatar__link" data-open="three">
                                 <img src="./img/Review3.png" alt="" class="interactive-avatar__img">
                             </a>
                         </li>
@@ -316,39 +606,40 @@
                         закажите доску
                     </h2>
                     <form action="" class="form">
+                        <input type="hidden" name="to" value="somewhere@mail.com">
                         <div class="form__col">
                             <div class="form__row">
                                 <label class="form__block">
                                     <div class="form__title">Имя</div>
-                                    <input type="text" class="form__input">
+                                    <input type="text" name="name" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__title">Телефон</div>
-                                    <input type="text" class="form__input">
+                                    <input type="text" name="phone" class="form__input">
                                 </label>
                             </div>
                             <div class="form__row">
                                 <label class="form__block">
                                     <div class="form__title">Улица</div>
-                                    <input type="text" class="form__input">
+                                    <input type="text" name="street" class="form__input">
                                 </label>
                             </div>
                             <div class="form__row">
                                 <label class="form__block">
                                     <div class="form__title">Дом</div>
-                                    <input type="text" class="form__input">
+                                    <input type="text" name="house" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__title">Корпус</div>
-                                    <input type="text" class="form__input">
+                                    <input type="text" name="corps" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__title">Квартира</div>
-                                    <input type="text" class="form__input">
+                                    <input type="text" name="apartment" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__title">Этаж</div>
-                                    <input type="text" class="form__input">
+                                    <input type="text" name="floor" class="form__input">
                                 </label>
                             </div>
                         </div>
@@ -356,7 +647,7 @@
                             <div class="form__row form__text">
                                 <label class="form__block">
                                     <div class="form__title">Комментарий</div>
-                                    <textarea class="form__input form__input--textarea"></textarea>
+                                    <textarea name="comment" class="form__input form__input--textarea"></textarea>
                                 </label>
                             </div>
                             <div class="form__controls">
@@ -503,6 +794,24 @@
             </ul>
         </nav> 
     </div>
+    <div id="modal" class="modal">
+        <div class="modal__container">
+            <div class="modal__content">
+                Сообщение отправлено
+            </div>
+            <div class="modal__button-container">
+                <a href="" class="btn btn--theme--yellow app-close-modal">Закрыть</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"> </script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/slider.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/tabs.js"></script>
+    <script src="./js/accordeon.js"></script>
 </body>
 </html>
